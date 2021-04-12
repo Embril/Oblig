@@ -1,0 +1,67 @@
+#container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-gap: 8px;
+}
+
+#container > div {
+  background-color: rgb(231, 232, 245);
+}
+
+#inner-head {
+  text-align: center;
+  padding-top: 20px;
+  font-size: xx-large;
+  color: black;
+}
+
+#inner-grid {
+  display: grid;
+  height: 50vh;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 10px;
+}
+
+#inner-grid > div {
+  text-align: center;
+  padding-top: 50px;
+  font-size: xx-large;
+  color: black;
+}
+
+#header {
+  text-align: center;
+  padding-top: 30px;
+  font-size: xx-large;
+  color: black;
+}
+
+#footer {
+  text-align: center;
+  font-size: large;
+  color: black;
+  padding-top: 20px;
+}
+
+#plus {
+  border: solid black 2px;
+}
+
+#minus {
+  border: solid black 2px;
+}
+
+#display {
+  border: solid black 2px;
+}
+
+#reset {
+  border: solid black 2px;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+}
